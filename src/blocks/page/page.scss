@@ -87,3 +87,23 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/*===================================
+=            Main styles            =
+===================================*/
+h3 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 90vw;
+  height: 75vh;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+  border: 3px solid tomato;
+  object-fit: cover; // cover - auto-crop if needed whith save aspect ratio - most usuful
+  object-position: 50% 50%; // BG position, def - center
+}
+/*=====  End of Main styles  ======*/
